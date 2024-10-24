@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posicionament en CSS</title>
+  <style>
+    .relatiu {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      background-color: lightblue;
+      padding: 10px;
+    }
+
+    .absolut {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: lightgreen;
+      padding: 10px;
+    }
+
+    .fix {
+      position: fixed;
+      top: 0;
+      right: 0;
+      background-color: coral;
+      padding: 10px;
+    }
+
+    .enganxós {
+      position: sticky;
+      top: 10px;
+      background-color: yellow;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="enganxós">Títol enganxós</h1>
+  <div class="relatiu">Aquest element té `position: relative`.</div>
+  <div class="absolut">Aquest element té `position: absolute`.</div>
+  <div class="fix">Aquest element té `position: fixed`.</div>
+</body>
+</html>

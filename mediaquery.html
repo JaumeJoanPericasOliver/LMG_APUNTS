@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disseny Responsive</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .contenidor {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    .element {
+      background-color: lightblue;
+      padding: 10px;
+      margin: 5px;
+      text-align: center;
+    }
+
+    @media (min-width: 768px) {
+      .contenidor {
+        flex-direction: row;
+      }
+
+      .element {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .element {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="contenidor">
+    <div class="element">Element 1</div>
+    <div class="element">Element 2</div>
+    <div class="element">Element 3</div>
+  </div>
+</body>
+</html>
