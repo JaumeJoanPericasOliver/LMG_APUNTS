@@ -1,0 +1,11 @@
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50vw;
+    color: #000000;
+    text-align: end;
+    font-weight: bold;
+    font-style: italic;
+    margin: 100px 10px 30px 50px;
+    border: 2px dashed black; /* Vora de 2 píxels, sòlida i negra */
+    padding: 20px;
+}

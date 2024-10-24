@@ -42,7 +42,7 @@
 
     <script>
         document.getElementById('load-data-btn').addEventListener('click', function() {
-            fetch('data.json') // Asegúrate de que el archivo JSON esté en la misma ubicación
+            fetch('data/data.json') // Asegúrate de que el archivo JSON esté en la misma ubicación
                 .then(response => response.json()) // Convertimos la respuesta a JSON
                 .then(data => {
                     const tableBody = document.querySelector('#users-table tbody');
